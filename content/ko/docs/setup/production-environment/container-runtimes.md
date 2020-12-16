@@ -388,7 +388,7 @@ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key --keyring
 ```shell
 # 도커 apt 리포지터리 추가:
 sudo add-apt-repository \
-  deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+  "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
   $(lsb_release -cs) \
   stable"
 ```
